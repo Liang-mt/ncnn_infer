@@ -8,6 +8,13 @@
 
 
 
+video视频文件请访问网盘链接下载
+
+链接：https://pan.baidu.com/s/1QykXf3QvKQdGDIeRvCxdzw?pwd=0000 
+提取码：0000 
+
+
+
 安装所需依赖
 
 ```
