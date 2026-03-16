@@ -63,8 +63,6 @@ cv::VideoCapture cap("./video/3.mp4");
 bool ArmorDetector::initModel(const char* param_path, const char* bin_path)
 {
     // Load the ncnn model
-    // 这个 ncnn 模型 0 是红，1 是蓝, 但是 onnx 是反过来的，因为刚接触 ncnn，好多地方不太清楚，有了解的望指正
-
     //这个设为TRUE，开启gpu推理(测试R7 4800U的AMD核显可以)，FALSE是cpu推理
     net.opt.use_vulkan_compute = TRUE;
 
